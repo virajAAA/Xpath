@@ -1,0 +1,39 @@
+
+*****************   XPATH ************************
+		(freeCrm.com)
+
+		Link
+		
+		1) //a[text()='Sales CRM']
+		2) //a[contains(text(), 'Sales CRM')] -------> Mostly used
+		
+		
+		Button
+		(facebook.com)
+		
+		1) //span[text()='Log In']
+		2) //button[@type='submit']	 
+		3) //button[@class='sc-bdfBwQ gMjhXd' and text() ='Login'] (digital ik)
+		
+		
+		Button
+		(https://v4-alpha.getbootstrap.com/components/dropdowns/)
+		1) //div[@class='dropdown' ]/button[@type='button' and @class='btn btn-secondary dropdown-toggle' and @id='dropdownMenuButton']
+							
+									OR
+		
+		2) //button[@id='dropdownMenuButton']		
+		
+		
+		
+		Finding xpath using
+		
+		  preceding-sibling::
+		  
+		  https://ui.cogmento.com/tasks
+		  //a[text()='Demo']//parent::td//preceding-sibling::td//input[@name='id']
+		
+		
+		
+		
+							
